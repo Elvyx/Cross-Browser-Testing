@@ -39,7 +39,7 @@ public class CrossBrowsertest {
 			
 		}else if (browser.equalsIgnoreCase("edge")) {
 			
-			System.setProperty("webdriver.edge.driver", "C:\\Users\\USER\\Downloads\\edgedriver_win64 (1)\\msedgedriver.exe");
+			WebDriverManager.edgedriver().setup();
 			 driver= new EdgeDriver();
 			
 			
